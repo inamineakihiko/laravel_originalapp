@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body style="padding-top: 5rem">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">メルカリ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">おすすめ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">マイページ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">商品検索</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">出品</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center mt-3" style="width:600px">
+      <div class="row">
+        <div class="col">
+          <h2>商品の出品</h2>
+          <div class="d-flex flex-wrap">
+            <div>出品画像</div>
+            <div class="w-100 bg-primary" style="height: 100px;">商品画像</div>
+          </div>
+          <h3 class="text-start mt-3">
+            商品の詳細
+          </h3>
+          <div class="d-flex flex-wrap">
+            <div>カテゴリー</div>
+            <div class="form-group w-100">
+              <select id="select1" class="form-control">
+                <option>レディース</option>
+                <option>メンズ</option>
+                <option>ベビー・キッズ</option>
+                <option>インテリア・住まい・小物</option>
+                <option>本・音楽・ゲーム</option>
+                <option>おもちゃ・ボビー・グッズ</option>
+                <option>コスメ・香水・美容</option>
+                <option>家電・スマホ・カメラ</option>
+                <option>スポーツ・レジャー</option>
+                <option>ハンドメイド</option>
+                <option>チケット</option>
+                <option>自動車・オートバイ</option>
+                <option>その他</option>
+              </select>
+            </div>
+            <div>商品の状態</div>
+            <div class="form-group w-100">
+              <select id="select2" class="form-control">
+                <option>新品、未使用</option>
+                <option>未使用に近い</option>
+                <option>目立った傷や汚れなし</option>
+                <option>やや傷や汚れあり</option>
+                <option>傷や汚れあり</option>
+                <option>全体的に状態が悪い</option>
+              </select>
+            </div>
+          </div>
+          <h3 class="text-start mt-3">
+            商品名と説明
+          </h3>
+          <div class="d-flex flex-wrap">
+            <div>商品名</div>
+            <div class="w-100">
+              <input type="text" class="form-control" placeholder="商品名を入力してください">
+            </div>
+            <div class="mt-3">商品の説明</div>
+            <div class="w-100">
+              <textarea class="form-control" style="height:200px" placeholder="色、素材、重さ、定価、注意点など
+
+（例）2010年頃に1万円で購入したグレーのジャケットです。
+ ライトグレーで傷はありません。
+
+ #ジャケット #ジャケットコーデ">
+</textarea>
+            </div>
+          </div>
+          <h3 class="text-start mt-3">
+            配送について
+          </h3>
+          <div class="d-flex flex-wrap">
+            <div>配送料の負担</div>
+            <div class="form-group w-100">
+              <select id="select3" class="form-control">
+                <option>送料込み(出品者負担)</option>
+                <option>着払い(購入者負担)</option>
+              </select>
+            </div>
+            <div>配送方法</div>
+            <div class="form-group w-100">
+              <select id="select4" class="form-control">
+                <option>未定</option>
+                <option>らくらくメルカリ便</option>
+                <option>ゆうゆうメルカリ便</option>
+                <option>梱包・発送たのメル便</option>
+                <option>ゆうメール</option>
+                <option>普通郵便(定型、定型型)</option>
+                <option></option>
+                <option>クロネコヤマト</option>
+                <option>ゆうパック</option>
+                <option>クリックポスト</option>
+                <option>ゆうパケット</option>
+              </select>
+            </div>
+            <div class="mt-3">配送元の地域</div>
+            <div class="form-group w-100">
+              <select id="select５" class="form-control">
+                <option>北海道</option>
+                <option>青森県</option>
+                <option>岩手県</option>
+                <option>宮城県</option>
+                <option>秋田県</option>
+                <option>山形県</option>
+                <option>福島県</option>
+                <option>茨城県</option>
+                <option>栃木県</option>
+                <option>群馬県</option>
+                <option>千葉県</option>
+                <option>東京都</option>
+                <option>神奈川県</option>
+                <option>新潟県</option>
+                <option>富山県</option>
+                <option>石川県</option>
+                <option>福井県</option>
+                <option>山梨県</option>
+                <option>長野県</option>
+                <option>岐阜県</option>
+                <option>静岡県</option>
+                <option>愛知県</option>
+                <option>三重県</option>
+                <option>滋賀県</option>
+                <option>京都府</option>
+                <option>大阪府</option>
+                <option>兵庫県</option>
+                <option>奈良県</option>
+                <option>和歌山県</option>
+                <option>鳥取県</option>
+                <option>岡山県</option>
+                <option>広島県</option>
+                <option>山口県</option>
+                <option>徳島県</option>
+                <option>香川県</option>
+                <option>愛媛県</option>
+                <option>高知県</option>
+                <option>福岡県</option>
+                <option>佐賀県</option>
+                <option>長崎県</option>
+                <option>熊本県</option>
+                <option>大分県</option>
+                <option>宮崎県</option>
+                <option>鹿児島県</option>
+                <option>沖縄県</option>
+                <option>未定</option>
+              </select>
+            </div>
+            <div class="mt-3">発送までの日数</div>
+            <div class="form-group w-100">
+              <select id="select3" class="form-control">
+                <option>1〜2日で発送</option>
+                <option>2日〜3日で発送</option>
+                <option>4日〜5日で発送</option>
+              </select>
+            </div>
+          </div>
+          <h3 class="text-start mt-3">
+            販売価格
+          </h3>
+          <div class="d-flex flex-wrap">
+            <div>
+              販売価格(¥300〜9,999,999)
+            </div>
+            <div class="w-100">
+              <input type="text" class="form-control" placeholder="¥">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
