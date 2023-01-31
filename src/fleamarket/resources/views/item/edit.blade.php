@@ -83,21 +83,6 @@
               </select>
             </div>
             <div>配送方法</div>
-            <div class="form-group w-100">
-              <select name="shippingmethod" class="form-control">
-              <option>{{ $edit_products->shippingmethod }}</option>
-                <option>未定</option>
-                <option>らくらくメルカリ便</option>
-                <option>ゆうゆうメルカリ便</option>
-                <option>梱包・発送たのメル便</option>
-                <option>ゆうメール</option>
-                <option>普通郵便(定型、定型型)</option>
-                <option>クロネコヤマト</option>
-                <option>ゆうパック</option>
-                <option>クリックポスト</option>
-                <option>ゆうパケット</option>
-              </select>
-            </div>
             <div class="mt-3">配送元の地域</div>
             <div class="form-group w-100">
               <select name="sender" class="form-control">

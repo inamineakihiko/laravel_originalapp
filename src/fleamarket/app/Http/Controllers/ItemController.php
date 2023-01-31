@@ -39,7 +39,6 @@ class ItemController extends Controller
             $update_target_product->prices = $request->prices;
             $update_target_product->postage = $request->postage;
             $update_target_product->status = $request->status;
-            $update_target_product->shippingmethod = $request->shippingmethod;
             $update_target_product->sender = $request->sender;
             $update_target_product->deliverytime = $request->deliverytime;
             $update_target_product->save();
@@ -65,7 +64,6 @@ class ItemController extends Controller
         $register->prices = $request->prices;
         $register->postage = $request->postage;
         $register->status = $request->status;
-        $register->shippingmethod = $request->shippingmethod;
         $register->sender = $request->sender;
         $register->deliverytime = $request->deliverytime;
 

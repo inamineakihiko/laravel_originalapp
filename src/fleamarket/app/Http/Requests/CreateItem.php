@@ -30,7 +30,6 @@ class CreateItem extends FormRequest
             'content' => 'required|max:300',
             'postage' => 'required',
             'status' => 'required',
-            'shippingmethod' => 'required',
             'sender' => 'required',
             'deliverytime' => 'required',
             'prices' => 'required',
@@ -46,7 +45,6 @@ class CreateItem extends FormRequest
         'content' => '商品の説明',
         'postage' => '配送料の負担',
         'status' => '商品の状態',
-        'shippingmethod' => '配送方法',
         'sender' => '発送元の地域',
         'deliverytime' => '発送までの日数',
         'prices' => '販売価格'

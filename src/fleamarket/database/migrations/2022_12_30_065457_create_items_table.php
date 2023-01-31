@@ -17,7 +17,6 @@ class CreateItemsTable extends Migration
             $table->id();
             $table->text('title');
             $table->string('status');
-            $table->string('shippingmethod');
             $table->string('sender');
             $table->string('deliverytime');
             $table->string('category');
