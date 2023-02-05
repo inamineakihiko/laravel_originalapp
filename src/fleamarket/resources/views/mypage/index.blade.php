@@ -34,7 +34,7 @@
           <div class="d-flex flex-wrap mt-5">
             <span>ニックネーム</span>
             <div class="w-100">
-              <input type="name" class="form-control" name="username" value="{{$users->name}}">
+              <input type="name" class="form-control" name="name" value="{{$users->name}}">
             </div>
             <span class="mt-2">email</span>
             <div class="w-100">

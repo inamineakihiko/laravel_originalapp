@@ -7,7 +7,7 @@
     @foreach($favorite_products as $favorite_product)
     <div class="col-sm-6 col-md-3 mt-3">
       <div class="card" style="width: 18rem;">
-      <img src="{{ asset('storage/img/' . $favorite_product->item_image) }}" class="card-img-top" alt="...">
+      <img src="{{ asset('storage/img/' . $favorite_product->item_image) }}" style="width: 300px; height:300px;" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">{{$favorite_product->title}}</h5>
         <p class="card-text text-truncate">{{$favorite_product->content}}</p>

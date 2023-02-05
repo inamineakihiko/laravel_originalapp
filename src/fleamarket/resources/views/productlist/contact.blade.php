@@ -43,7 +43,6 @@
           <input type="hidden" name="items_id"value="{{$currentd_products->id}}">
           <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
           <input type="hidden" name="name" value="{{ Auth::user()->name }}">
-          <input type="hidden" name="image" value="{{ Auth::user()->image }}">
           <button type="submit" class="btn btn-primary">
             送信
           </button>

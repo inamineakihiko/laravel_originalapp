@@ -133,7 +133,6 @@ class productlistController extends Controller
         $contacts->items_id = $request->items_id;
         $contacts->user_id = $request->user_id;
         $contacts->name = $request->name;
-        $contacts->image = $request->image;
         $contacts->save();
         return back();
     }

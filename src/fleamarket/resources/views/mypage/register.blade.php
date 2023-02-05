@@ -7,7 +7,7 @@
     @foreach($register_products as $register_product)
     <div class="col-sm-6 col-md-3 mt-3">
       <div class="card" style="width: 18rem;">
-      <img src="{{ asset('storage/img/' . $register_product->item_image) }}" class="card-img-top" alt="...">
+      <img src="{{ asset('storage/img/' . $register_product->item_image) }}" style="width: 300px; height:300px;"class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">{{$register_product->title}}</h5>
         <p class="card-text text-truncate">{{$register_product->content}}</p>

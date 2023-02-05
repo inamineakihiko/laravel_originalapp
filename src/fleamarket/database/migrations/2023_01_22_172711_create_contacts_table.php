@@ -19,7 +19,6 @@ class CreateContactsTable extends Migration
             $table->biginteger('user_id')->unsigned();
             $table->string('content');
             $table->string('name');
-            $table->string('image');
             $table->timestamps();
         });
     }
